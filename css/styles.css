@@ -1,0 +1,1107 @@
+
+.body {
+    background: url('../img/pattern_03.png') repeat;
+}
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+}
+.bumblebee {
+    padding: 15px 0px;
+}
+.bumblebee__content {
+    height: 940px;
+    width: 1100px;
+    position: relative;
+    padding: 50px 0 50px 0px;
+    /* background: url(../img/001.jpg) 50px 50px / 500px no-repeat; */
+    background: url('../img/pattern_02.png') repeat;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.459);
+    border-radius: 20px;
+    margin: 0 auto;
+}
+.bumblebee__left {
+    /* border: 1px solid red; */
+    height: 835px;
+    width: 500px;
+    position: absolute;
+    left: 50px;
+    overflow: hidden;
+}
+.bumblebee__right {
+    /* border: 1px solid red; */
+    height: 835px;
+    width: 500px;
+    position: absolute;
+    left: 550px;
+    overflow: hidden;
+    transform: rotateY(180deg);
+}
+
+/* верхушка черепа */
+.bumblebee__scull {
+    width: 340px;
+    height: 280px;
+    /* border: 1px solid #ffff; */
+    background: #f8d300;
+    border-radius: 100% 0% 100% 0% / 60% 100% 0% 40%  ; 
+    position: absolute;
+    z-index: 0;
+    top: 80px;
+    left: 118px;
+    transform: rotate(-10deg);
+    perspective: 600px;
+    overflow: hidden;
+}
+.bumblebee__scull-patch-left {
+    width: 65px;
+    height: 130px;
+    background: #E0AC02;;
+    position: absolute;
+    z-index: 2;
+    transform: rotate(-10deg);
+    top: 380px;
+    left: 146px;
+}
+.bumblebee__scull-patch-right {
+    width: 150px;
+    height: 130px;
+    background: #f8d300;
+    position: absolute;
+    z-index: 4;
+    transform: rotate(20deg);
+    top: 260px;
+    left: 270px;
+}
+.bumblebee__scull-shadow {
+    width: 450px;
+    height: 230px;
+    /* border: 1px solid #faf6e3; */
+    position: absolute;
+    z-index: 4;
+    transform: rotate(-25deg);
+    top: 210px;
+    left: 70px;
+    overflow: hidden;
+}
+.shadow__scull-cut {
+    width: 450px;
+    height: 230px;
+    /* border: 1px solid #faf6e3; */
+    position: absolute;
+    z-index: 4;
+    transform: rotate(15deg);
+    top: 45px;
+    left: 57px;
+    overflow: hidden;
+}
+.shadow__content {
+    width: 450px;
+    height: 330px;
+    border: 40px solid #E0AC02;
+    border-radius: 27% 73% 0% 100% / 51% 21% 79% 49% ;
+    position: absolute;
+    z-index: 4;
+    transform: rotate(20deg);
+    top: 120px;
+    left: -58px;
+}
+.scull__ear {
+    width: 185px;
+    height: 155px;
+    border-radius: 60px;
+    background: #5b5248;
+    position: relative;
+    top: 10px;
+    left: 50px;
+    border: 2px solid  #423e39;
+    transform: skew(0deg,-10deg) rotateX(20deg);
+}
+.scull__in-ear {
+    width: 155px;
+    height: 125px;
+    border-radius: 50px;
+    background: #2b2825;
+    border: 2px solid  #706c68;
+    position: relative;
+    top: 10px;
+    left: 10px;
+    overflow: hidden;
+}
+.scull__in-ear-too {
+    width: 150px;
+    height: 105px;
+    border-radius: 30px;
+    background: #5b5248;
+    position: relative;
+    top: 60px;
+    left: 30px;
+}
+.scull__romb {
+    width: 103px;
+    height: 105px;
+    background: #2b2825;
+    position: relative;
+    top: 0px;
+    left: 14px;
+    transform: rotate(-20deg);
+}
+.bumblebee__eyebrow {
+    position: absolute;
+    z-index: 4;
+    top: 376px;
+    left: 358px;
+    width: 100px;
+    height: 50px;
+    overflow: hidden;
+}
+.eyebrow__content {
+    position: relative;
+    top: -120px;
+    left: -100px;
+    width: 200px;
+    height: 156px;
+    border: 20px solid #5b5248;
+    border-radius: 40% ;
+    transform: rotate(8deg);
+}
+.bumblebee__forehead {
+    width: 150px;
+    height: 445px;
+    border-radius: 100% 0% 100% 0% / 6% 100% 0% 94%   ; 
+    position: absolute;
+    z-index: 5;
+    top: 20px;
+    left: 380px;
+    transform: rotate(-5deg);
+    overflow: hidden;
+}
+.forehead__container {
+    position: relative;
+}
+.forehead__border {
+}
+.forehead__top {
+    height: 385px;
+    background: #5b5248;
+    border-radius: 100% 0% 93% 7% / 0% 100% 0% 100% ;
+}
+.forehead__bottom {
+    width: 150px;
+    height: 60px;
+    background: #5b5248;
+    border-radius: 100% 0% 1% 99% / 0% 100% 0% 100% ;
+    position: relative;
+    top: -1px;
+    left: 10px;
+}
+.forehead__forehead {
+    position: absolute;
+    top: -10px;
+    left: 20px;
+    z-index: 5;
+}
+.forehead__top-path {
+    height: 385px;
+    background: #f8cb00;
+    border-radius: 100% 0% 93% 7% / 0% 100% 0% 100% ;
+}
+.forehead__bottom-path {
+    width: 150px;
+    height: 60px;
+    background: #f8cb00;
+    border-radius: 100% 0% 0% 100% / 13% 100% 0% 87%;
+    position: relative;
+    top: -8px;
+    left: 10px;
+}
+
+/* висок (боковая часть) */
+.bumblebee__temple {
+    width: 18px;
+    height: 180px;
+    background: #dbaa07;
+    /* border: 1px solid #8f5406; */
+    border-radius: 100% 0% 100% 0% / 13% 100% 0% 87% ;
+    position: absolute;
+    z-index: 2;
+    top: 285px;
+    left: 125px;
+    transform: rotate(-10deg);
+}
+
+/* ободок */
+.bumblebee__bezel {
+    position: absolute;
+    top: 420px;
+    left: 0;
+}
+.bezel__container {
+    position: relative;
+}
+.bezel__highlight {
+    width: 150px;
+    height: 50px;
+    border-radius: 45%;
+    background: #f5dc8a; 
+    position: absolute;
+    z-index: 1;
+    left: 45px;
+    top: 0px;
+}
+.bezel__bezel-top{
+    width: 135px;
+    height: 100px;
+    overflow: hidden;
+    position: absolute;
+    /* border: 1px solid black; */
+    top: 0px;
+    left: 10px;
+}
+.bezel__figure {
+    width: 200px;
+    height: 100px;
+    background: #f8cb00;  
+    position: relative;
+    border-radius: 52% 48% 100% 0% / 90% 100% 0% 10% ;
+}
+.bezel__bezel-batton {
+    width: 130px;
+    height: 175px;
+    background: #f8cb00;
+    border-radius: 30px;
+    position: absolute;
+    top: 75px;
+    left: 33px;
+    transform:  skew(20deg);
+}
+
+/* решетка  */
+.bumblebee__lattice {
+    width: 146px;
+    height: 220px;
+    background: #5B5248;
+    border-radius: 50px;
+    position: absolute;
+    top: 460px;
+    left: 52px;
+    transform: rotate(-5deg);
+    border: 2px solid  #423e39;
+    z-index: 4;
+}
+.lattice__border {
+    width: 126px;
+    height: 200px;
+    background: #867a6d;
+    border-radius: 40px;
+    position: relative;
+    top: 8px;
+    left: 8px;
+    border: 2px solid  #b3aba2;
+}
+.lattice__in-border {
+    width: 96px;
+    height: 170px;
+    border-radius: 30px;
+    position: relative;
+    top: 13px;
+    left: 12px;
+    border: 2px solid  #423e39;
+    overflow: hidden;
+}
+.lattice__grid {
+    position: relative;
+    background: #2e2e2d;
+}
+.lattice__section {
+    height: 200px;
+    width: 16px;
+    background: #cab9a6;
+    margin: 0 5px 0 0;
+}
+.lattice__section:nth-child(2) {
+    position: absolute;
+    top: 0;
+    left: 27px;
+}
+.lattice__section:nth-child(3) {
+    position: absolute;
+    top: 0;
+    left: 53px;
+}
+.lattice__section:nth-child(4) {
+    position: absolute;
+    top: 0;
+    left: 80px;
+}
+
+/* челюсть */
+.bumblebee__jaw {
+    position: absolute;
+    z-index: 2;
+    top: 490px;
+    left: 193px;
+}
+.jaw__container {
+    position: relative;
+}
+.jaw__block-jaw {
+    border-radius: 0% 100% 0% 100% / 53% 100% 0% 47% ;
+    overflow: hidden;
+}
+.jaw__block-cut {
+    width: 200px;
+    height: 283px;
+    background: #e0ac02; 
+    border-radius: 100% 0% 52% 48% / 0% 100% 0% 100%;
+}
+.jaw__block-jaw-in {
+    border-radius: 0% 100% 0% 100% / 53% 100% 0% 47% ;
+    overflow: hidden;
+    position: absolute;
+    top: -24px;
+    left: 23px;
+    transform: rotate(4deg);
+}
+.jaw__block-jaw-in-cut {
+    width: 200px;
+    height: 288px;
+    background: #806200;; 
+    border-radius: 100% 0% 52% 48% / 0% 100% 0% 100%;
+}
+
+/* глазница */
+.bumblebee__eye-socket {
+    position: absolute;
+    top: 283px;
+    left: 148px;
+    z-index: 4;
+    height: 166px;
+    width: 210px;
+    overflow: hidden;
+    /* border: 1px solid black; */
+    transform: rotate(-23deg);
+}
+.eye-socket__arc {
+    position: relative;
+    top: 91px;
+    left: -5px;
+    width: 218px;
+    height: 156px;
+    border: 20px solid #5b5248;
+    border-radius: 40%;
+    transform: rotate(38deg);
+}
+
+/* боковая глазная дуга  */
+.bumblebee__left-arc {
+    position: absolute;
+    top: 325px;
+    left: 193px;
+    z-index: 4;
+    transform: rotate(5deg);
+}
+.arc-left__content {
+    width: 105px;
+    height: 140px;
+    /* border: 1px solid black; */
+    position: relative;
+    top: 88px;
+    left: -30px;
+    overflow: hidden;
+    transform: rotate(-40deg);
+}
+.arc-left__box {
+    transform: rotate(40deg);
+    position: relative;
+    left: -4px;
+}
+.arc-left__left {
+    position: relative;
+    top: -70px;
+    width: 250px;
+    height: 250px;
+    border: 23px solid #fcd75d;
+    border-radius: 50%;
+}
+.arc-left__right {
+    position: absolute;
+    top: -70px;
+    left: 14px;
+    width: 250px;
+    height: 250px;
+    border: 23px solid #cfa005;
+    border-radius: 50%;
+}
+
+/* нижняя дуга */
+.bumblebee__bottom-arc {
+    position: absolute;
+    top: 520px;
+    left: 227px;
+    z-index: 5;
+}
+.arc-bottom__container {
+    width: 195px;
+    height: 90px;
+    /* border: 1px solid #ffff; */
+    overflow: hidden;
+}
+.arc-bottom__cut {
+    width: 185px;
+    height: 185px;
+    /* border: 1px solid #ffff; */
+    transform:rotate(-20deg);
+    position: relative;
+    top: -35px;
+    left: 16px;
+    overflow: hidden;
+}
+.arc-bottom__cut-box {
+    position: relative;
+    width: 200px;
+    height: 185px;
+    /* border: 1px solid rgb(255, 0, 0); */
+    transform:rotate(-10deg);
+    position: relative;
+    top: 10px;
+    left: 0px;
+    overflow: hidden;
+}
+.cut-bottom__arc-bottom {
+    position: relative;
+    top: -132px;
+    left: 0px;
+    width: 300px;
+    height: 250px;
+    border: 33px solid #3d3833;
+    border-radius: 40%;
+    transform: rotate(15deg);
+}
+.cut-bottom__arc-top {
+    position: absolute;
+    top: -65px;
+    left: -30px;
+    width: 350px;
+    height: 250px;
+    border: 25px solid #6e6458;
+    border-radius: 40%;
+    transform: rotate(-5deg);
+}
+
+/* челюсть (вторая дуга) */
+.arc-jaw-top {
+    position: absolute;
+    z-index: 4;
+    bottom: 28px;
+    right: 87px;
+}
+.arc-jaw-top__container {
+    width: 180px;
+    height: 220px;
+    position: relative;
+    /* border: 1px solid #ffffff; */
+    perspective: 400px;
+    overflow: hidden;
+}
+.arc-jaw-top__cut {
+    width: 250px;
+    height: 230px;
+    position: absolute;
+    bottom: 0px;
+    right: -23px;
+    /* border: 1px solid #ffffff; */
+    transform: rotate(25deg);
+    overflow: hidden;
+}
+.arc-jaw-top__arc {
+    width: 250px;
+    height: 230px;
+    position: absolute;
+    bottom: 25px;
+    right: -20px;
+    border: 20px solid #524a41;
+    border-radius: 0% 100% 0% 100% / 11% 0% 100% 89% ;
+    transform: rotate(-25deg) rotatey(40deg);
+}
+.arc-jaw-top__detail {
+    width: 45px;
+    height: 35px;
+    background: #524a41;
+    position: absolute;
+    border-radius: 10px;
+    bottom: 3px;
+    right: -26px;
+    transform: rotate(25deg);
+}
+.arc-jaw-top__riveting {
+    width: 28px;
+    height: 28px;
+    background: #918475;
+    position: relative;
+    border-radius: 50%;
+    bottom: -3px;
+    right: -8px;
+    transform: rotate(25deg);
+}
+.arc-jaw-top__elipse {
+    width: 65px;
+    height: 45px;
+    background: #524a41;
+    position: absolute;
+    border-radius: 40%;
+    bottom: 34px;
+    right: 41px;
+    transform: rotate(32deg);
+}
+
+/* скула */
+.bumblebee__cheekbone {
+    position: absolute;
+    z-index: 3;
+    bottom: 100px;
+    right: 120px;
+}
+.cheekbone__container {
+    width: 121px;
+    height: 150px;
+    position: relative;
+    /* border: 1px solid #ffffff; */
+    perspective: 400px;
+    overflow: hidden;
+}
+.cheekbone__elipse {
+    width: 180px;
+    height: 114px;
+    background: #292521;
+    position: absolute;
+    top: 0px;
+    left: -39px;
+    border-radius: 44%;
+    transform: rotate(60deg);
+}
+.cheekbone__point {
+    width: 50px;
+    height: 50px;
+    background: #292521;
+    position: absolute;
+    top: -20px;
+    right: 15px;
+}
+
+/* челюсть (дуга под носом) */
+.arc-nose {
+    position: absolute;
+    z-index: 7;
+    bottom: 46px;
+    right: 0px;
+}
+.arc-nose__container {
+    width: 150px;
+    height: 220px;
+    position: relative;
+    /* border: 1px solid #ffffff; */
+    perspective: 400px;
+    overflow: hidden;
+}
+.arc-nose__cut {
+    width: 154px;
+    height: 230px;
+    position: absolute;
+    bottom: 0px;
+    right: 26px;
+    /* border: 1px solid #ffffff; */
+    transform: rotate(37deg);
+    overflow: hidden;
+}
+.arc-nose__arc {
+    width: 250px;
+    height: 230px;
+    position: absolute;
+    bottom: 104px;
+    right: -20px;
+    border: 48px solid #8f8273;;
+    border-radius: 0% 100% 0% 100% / 11% 0% 100% 89% ;
+    transform: rotate(-50deg);
+}
+
+/* носовая дуга */
+.bumblebee__nose-arc-left {
+    position: absolute;
+    bottom: 232px;
+    right: 28px;
+    z-index: 5;
+}
+.arc-nose-left__container {
+    width: 80px;
+    height: 154px;
+    position: relative;
+    /* border: 1px solid #ffffff; */
+    overflow: hidden;
+}
+.arc-nose-left__cut {
+    width: 170px;
+    height: 154px;
+    position: absolute;
+    top: 15px;
+    left: -20px;
+    /* border: 1px solid #ffffff; */
+    transform: rotate(-45deg);
+    overflow: hidden;
+}
+.arc-nose-left__box-cut {
+    width: 170px;
+    height: 154px;
+    position: absolute;
+    top: -50px;
+    right: 39px;
+    /* border: 1px solid #ffffff; */
+    transform: rotate(25deg);
+    overflow: hidden;
+}
+.arc-nose-left__cut-container {
+    width: 170px;
+    height: 154px;
+    position: absolute;
+    top: -5px;
+    right: -10px;
+    /* border: 1px solid #ff3f3f; */
+    transform: rotate(-5deg);
+    overflow: hidden;
+}
+.arc-nose-left__content {
+    width: 190px;
+    height: 204px;
+    position: absolute;
+    top: -25px;
+    right: 0px;
+    border-radius: 79% 21% 100% 0% / 100% 40% 60% 0% ;
+    border: 45px solid #686056;
+    transform: rotate(10deg);
+}
+
+/* веко */
+.bumblebee__eyelid {
+    position: absolute;
+    z-index: 3;
+    top: 340px;
+    right: 117px;
+}
+.eyelid__container {
+    width: 165px;
+    height: 124px;
+    position: relative;
+    /* border: 1px solid #ffffff; */
+    overflow: hidden;
+}
+.eyelid__eyelid {
+    width: 250px;
+    height: 200px;
+    position: absolute;
+    top: 28px;
+    right: -48px;
+    border: 20px solid #beb1a1;
+    border-radius: 57% 43% 30% 70% / 42% 41% 59% 58% ;
+    transform: rotate(-38deg);
+}
+.eyelid__line {
+    width: 250px;
+    height: 200px;
+    position: absolute;
+    top: 3px;
+    right: 0px;
+    border: 16px solid #998e81;
+    border-radius: 57% 43% 30% 70% / 42% 41% 59% 58% ;
+    transform: rotate(0deg);
+}
+.eyelid__arc {
+    width: 250px;
+    height: 200px;
+    position: absolute;
+    top: 2px;
+    right: -8px;
+    border: 20px solid #beb1a1;
+    border-radius: 57% 43% 30% 70% / 42% 41% 59% 58% ;
+    transform: rotate(0deg);
+}
+
+/* глаз */
+.bumblebee__eye {
+    position: absolute;
+    top: 372px;
+    right: 50px;
+    z-index: 2;
+}
+.eye__container {
+    width: 230px;
+    height: 220px;
+    border: 1px solid #ffffff;
+    background: #051d2e;
+    position: relative;
+    top: -20px;
+    transform: rotate(-19deg);
+}
+.eye__border {
+    width: 160px;
+    height: 160px;
+    border: 5px solid #033457;
+    background: #064c7e;
+    border-radius: 50%;
+    position: absolute;
+    top: 42px;
+    right: 36px;
+}
+.eye__circle {
+    width: 110px;
+    height: 110px;
+    border: 5px solid #1066a3;
+    background: #0D87DF;
+    border-radius: 50%;
+    position: absolute;
+    top: 19px;
+    right: 17px;
+}
+.eye__pupil {
+    width: 80px;
+    height: 80px;
+    background: #6dc2ff;
+    border: 2px solid #a0d0f3;
+    border-radius: 50%;
+    position: absolute;
+    top: 9px;
+    right: 9px;
+}
+.eye__point {
+    width: 26px;
+    height: 26px;
+    background: #b9dff8;
+    border: 2px solid #a0d0f3;
+    border-radius: 50%;
+    position: absolute;
+    top: 25px;
+    right: 24px;
+}
+
+/* нос */
+.bumblebee__nose {
+    position: absolute;
+    z-index: 2;
+    bottom: 190px;
+    right: 0px;
+}
+.nose__container {
+    width: 80px;
+    height: 200px;
+    /* border: 1px solid #ffffff; */
+    position: relative;
+    top: -20px;
+    overflow: hidden;
+    background: #051d2e;
+}
+.nose__top{
+    width: 63px;
+    height: 80px;
+    /* border: 1px solid #ffffff; */
+    background: #ebcc68;
+    position: absolute;
+    top: 29px;
+    left: 30px;
+    transform: rotate(-19deg);
+}
+.nose__center {
+    width: 63px;
+    height: 80px;
+    /* border: 1px solid #ffffff; */
+    background: #e9b407;
+    position: absolute;
+    top: 0px;
+    left: 30px;
+    transform: rotate(10deg);
+}
+.nose__bottom {
+    width: 100px;
+    height: 150px;
+    background: #292521;
+    position: absolute;
+    top: 76px;
+    left: 25px;
+    transform: skew(-25deg);
+}
+.nose__jumper {
+    width: 20px;
+    height: 30px;
+    background: #e9b407;
+    position: relative;
+    top: 67px;
+    left: 68px;
+}
+.nose__highlight {
+    width: 100px;
+    height: 150px;
+    background: #4d453e;
+    position: absolute;
+    top: 45px;
+    left: 5px;
+    transform: skew(-15deg);
+}
+.nose__skew {
+    width: 100px;
+    height: 150px;
+    background: #3a342f;
+    position: absolute;
+    top: 20px;
+    left: 9px;
+}
+
+/* боковая часть рта */
+.bumblebee__muth-left {
+    position: absolute;
+    z-index: 2;
+    bottom: 30px;
+    right: 20px;
+}
+.left-muth__container {
+    width: 180px;
+    height: 190px;
+    /* border: 1px solid #ffffff; */
+    position: relative;
+    overflow: hidden;
+}
+.left-muth__content {
+    width: 160px;
+    height: 160px;
+    /* border: 1px solid #ffffff; */
+    transform: rotate(26deg);
+    position: absolute;
+    top: -18px;
+    background: #8f8273;
+}
+.left-muth__jumper {
+    width: 60px;
+    height: 32px;
+    position: absolute;
+    bottom: -5px;
+    right: 0px;
+    background: #312d28;
+    border: 1px solid #ffffff;
+}
+
+/* антена */
+.bumblebee__locator {
+    position: absolute;
+    z-index: 8;
+    top: 5px;
+    left: 70px;
+}
+.locator__container {
+    width: 250px;
+    height: 270px;
+    /* border: 1px solid #ffffff; */
+    position: relative;
+    overflow: hidden;
+}
+.locator__romb {
+    width: 80px;
+    height: 60px;
+    transform: skew(-25deg) rotate(-15deg) ;
+    background: #bbab9c;
+    border: 2px solid #ddcdbd;
+    border-radius: 15px;
+    position: absolute;
+    top: 140px;
+    left: 140px;
+}
+
+.locator__poin {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #4e4943;
+    border: 2px solid #35312b;
+}
+.locator__poin_2 {
+    position: relative;
+    top: -20px;
+    left: 55px;
+}
+.locator__poin_3 {
+    position: relative;
+    top: -5px;
+    left: 55px;
+}
+.locator__poin_4 {
+    position: relative;
+    top: -25px;
+    left: 0px;
+}
+.locator__locator {
+    width: 86px;
+    height: 150px;
+    background: #E0AC02;
+    transform: rotate(-35deg);
+    position: absolute;
+    top: 40px;
+    left: 96px;
+}
+.locator__highlight {
+    width: 64px;
+    height: 120px;
+    background: #f7d569;
+    transform: rotate(-35deg);
+    position: absolute;
+    border-radius: 8px;
+    top: 35px;
+    left: 90px;
+}
+.locator__receiver {
+    width: 70px;
+    height: 170px;
+    background: #E0AC02;
+    transform: rotate(-92deg);
+    border-radius: 30%;
+    position: absolute;
+    top: -63px;
+    left: 12px;
+}
+.locator__highlight-receiver {
+    width: 55px;
+    height: 160px;
+    background: #f7d569;
+    border-radius: 30%;
+    position: absolute;
+    top: 0px;
+    left: 20px;
+}
+
+/* рот */
+.bumblebee__mouth {
+    position: absolute;
+    z-index: 7;
+    bottom: 39px;
+    left: 401px;
+}
+.mouth__container {
+    width: 320px;
+    height: 280px;
+    /* border: 1px solid #ffff; */
+    position: relative;
+}
+.mouth__shadow {
+    width: 214px;
+    height: 155px;
+    border-radius: 48%;
+    border: 15px solid #292521;
+    position: absolute;
+    top: 66px;
+    left: 42px;
+}
+.mouth__border {
+    width: 184px;
+    height: 136px;
+    border-radius: 48%;
+    border: 12px solid #b6a694;
+    background: #292521;
+    position: absolute;
+    top: -8px;
+    right: 0px;
+    overflow: hidden;
+}
+.mouth__lattice {
+    position: relative;
+}
+.mouth__item {
+    width: 11px;
+    height: 133px;
+    background: #a19383;
+}
+.mouth__item_1 {
+    position: absolute;
+    left: 7px;
+}
+.mouth__item_2 {
+    position: absolute;
+    left: 33px;
+}
+.mouth__item_3 {
+    position: absolute;
+    left: 60px;
+}
+.mouth__item_4 {
+    position: absolute;
+    right: 60px;
+}
+.mouth__item_5 {
+    position: absolute;
+    right: 33px;
+}
+.mouth__item_6 {
+    position: absolute;
+    right: 7px;
+}
+
+/* рот (блок) */
+.block-mouth-left {
+    position: absolute;
+    bottom: 55px;
+    left: 515px;
+    z-index: 10;
+}
+.block-mouth__container {
+    width: 40px;
+    height: 200px;
+    /* border: 1px solid #ffff; */
+    position: relative;
+    overflow: hidden;
+}
+.block-mouth__top {
+    width: 41px;
+    height: 110px;
+    position: absolute;
+    top: 44px;
+    left: 4px;
+    background: #d4c3b0;
+    transform: skew(-5deg);
+    border-radius: 5px 0 0 0;
+}
+.block-mouth__bottom {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    bottom: 6px;
+    left: 2px;
+    background: #776d62;
+    transform: skew(7deg);
+    border-radius: 0 0 0 5px;
+}
+.block-mouth-right {
+    position: absolute;
+    bottom: 55px;
+    left: 545px;
+    z-index: 10;
+    transform: rotateY(180deg);
+}
+
+/* подпись */
+.bumblebee__signature {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 25px;
+    color: #696969;
+    position: absolute;
+    bottom: 0px;
+    right: 5px;
+    padding: 20px;
+    
+}
+.bumblebee__signature::before {
+    content: '';
+    width: 35px;
+    height: 35px;
+    margin: 0px 7px 0px 0px;
+    display: inline-block;
+    background: url("../img/flash.png") 50%/contain no-repeat;
+    position: relative;
+    top: 7px;
+}
+.bumblebee__signature:hover {
+    color: #9b9b9b;
+}
